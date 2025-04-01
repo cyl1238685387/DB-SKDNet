@@ -24,35 +24,45 @@ DB-SKDNet: Efficient Semi-Supervised Change Detection via Dual-Branch Knowledge 
   Fig. 1. Comparison of different types of SSL methods.(1)Mean teacher (2)FixMatch.
 <br><br>  
 
-
+![image](https://github.com/user-attachments/assets/581eb07a-0395-4dee-8061-e6b5339cecac)
+  Fig. 2. Comparison of different types of KD methods.
+<br><br>  
 
 
 ![image](https://github.com/user-attachments/assets/df6987e5-8f28-4e2a-9367-1a143ed7dba6)
+  Fig. 3. Overview of our proposed DB-SKDNet.
 <br><br>  
 
-![image](https://github.com/user-attachments/assets/581eb07a-0395-4dee-8061-e6b5339cecac)
-<br><br>  
+
 
 ![image](https://github.com/user-attachments/assets/a7cc6a14-fa8d-4d7e-8f90-79e0df54f613)
+Fig. 4. the qualitative comparison results on WHU-CD dataset with 5%.
 <br><br>  
 
 ![image](https://github.com/user-attachments/assets/49287ba0-f8f3-4623-b2b0-62d9baf7e426)
+Fig. 5. the qualitative comparison results on WHU-CD dataset with 10%.
 <br><br>  
 
 ![image](https://github.com/user-attachments/assets/6870cec3-dc38-4abd-9a91-4060a9158669)
+Fig. 6. the qualitative comparison results on WHU-CD dataset with 20%.
 <br><br>  
 
 ![image](https://github.com/user-attachments/assets/27e36bb0-80ff-4f0f-8837-8a37ce24910d)
+Fig. 7. the qualitative comparison results on WHU-CD dataset with 30%.
 <br><br>  
 
 ![image](https://github.com/user-attachments/assets/8bfdc04f-9e2b-4fca-a01d-b78590151969)
+Fig. 8. the qualitative comparison results on LEVIR-CD dataset with 5%.
 <br><br>  
 
 ![image](https://github.com/user-attachments/assets/d844ba78-a37e-4010-95fa-7f02a34fb3b0)
+Fig. 9. the qualitative comparison results on LEVIR-CD dataset with 10%.
 <br><br>  
 
 ![image](https://github.com/user-attachments/assets/e70b45ad-b3ea-4f50-985a-a3f03d7106eb)
+Fig. 10. the qualitative comparison results on LEVIR-CD dataset with 20%.
 <br><br>  
 
 ![image](https://github.com/user-attachments/assets/e8bea60e-b03a-4b24-8e34-771d12e64e02)
+Fig. 11. the qualitative comparison results on LEVIR-CD dataset with 30%.
 <br><br>  
