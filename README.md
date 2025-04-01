@@ -18,14 +18,11 @@ DB-SKDNet: Efficient Semi-Supervised Change Detection via Dual-Branch Knowledge 
   </pre>
 </div>
 
-<style>
-p {
-  line-height: 2.0; /* 行间距倍数 */
-}
-</style>
+
 
 ![image](https://github.com/user-attachments/assets/f06be317-90dc-426e-8b31-95378a0d97a8)
   Fig. 1. Comparison of different types of SSL methods.(1)Mean teacher (2)FixMatch.
+<br><br>  
 
 
 
