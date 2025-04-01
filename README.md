@@ -18,7 +18,23 @@ DB-SKDNet: Efficient Semi-Supervised Change Detection via Dual-Branch Knowledge 
   </pre>
 </div>
 
+## Training or Test
+<div style="background-color: #f6f8fa; border-radius: 3px; padding: 10px; margin: 5px 0;">
+  <div style="text-align: right; margin-bottom: 5px;">
+    <button onclick="copyToClipboard(this)"></button>
+  </div>
+  <pre style="margin: 0;">
+python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'WHU' --train_ratio 0.05 --model_name 'SemiModel_noema04'
+    <br><br>  
+python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'WHU' --train_ratio 0.1 --model_name 'SemiModel_noema04'
+    <br><br>  
+python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'WHU' --train_ratio 0.2 --model_name 'SemiModel_noema04'
+    <br><br>  
+python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'WHU' --train_ratio 0.3 --model_name 'SemiModel_noema04'
+<br><br>  
 
+  </pre>
+</div>
 
 ![image](https://github.com/user-attachments/assets/f06be317-90dc-426e-8b31-95378a0d97a8)
     Fig. 1. Comparison of different types of SSL methods.(1)Mean teacher (2)FixMatch.
