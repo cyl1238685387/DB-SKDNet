@@ -3,10 +3,9 @@ DB-SKDNet: Efficient Semi-Supervised Change Detection via Dual-Branch Knowledge 
 <!-- PROJECT SHIELDS -->
 
 ## Requirements
-
 <div style="background-color: #f6f8fa; border-radius: 3px; padding: 10px; margin: 5px 0;">
   <div style="text-align: right; margin-bottom: 5px;">
-    <button onclick="copyToClipboard(this)">复制</button>
+    <button onclick="copyToClipboard(this)"></button>
   </div>
   <pre style="margin: 0;">
 - Pytorch 1.8.0  
