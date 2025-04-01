@@ -18,7 +18,7 @@ DB-SKDNet: Efficient Semi-Supervised Change Detection via Dual-Branch Knowledge 
   </pre>
 </div>
 
-## Training or Test(WHU-CD)
+##Semi- Training or Test(WHU-CD)
 <div style="background-color: #f6f8fa; border-radius: 3px; padding: 10px; margin: 5px 0;">
   <div style="text-align: right; margin-bottom: 5px;">
     <button onclick="copyToClipboard(this)"></button>
@@ -28,10 +28,18 @@ python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'WHU' --train
 python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'WHU' --train_ratio 0.1 --model_name 'SemiModel_noema04'
 python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'WHU' --train_ratio 0.2 --model_name 'SemiModel_noema04'
 python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'WHU' --train_ratio 0.3 --model_name 'SemiModel_noema04'
+
+<br><br>  
+
+python test.py --gpu_id '1' --data_name 'WHU' --model_name 'SemiModel_noema04'
+python test.py --gpu_id '1' --data_name 'WHU' --model_name 'SemiModel_noema04'
+python test.py --gpu_id '1' --data_name 'WHU' --model_name 'SemiModel_noema04'
+python test.py --gpu_id '1' --data_name 'WHU' --model_name 'SemiModel_noema04'
+
   </pre>
 </div>
 
-## Training or Test(LEVIR-CD)
+##Semi- Training or Test(LEVIR-CD)
 <div style="background-color: #f6f8fa; border-radius: 3px; padding: 10px; margin: 5px 0;">
   <div style="text-align: right; margin-bottom: 5px;">
     <button onclick="copyToClipboard(this)"></button>
@@ -41,6 +49,11 @@ python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'LEVIR' --tra
 python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'LEVIR' --train_ratio 0.1 --model_name 'SemiModel_noema04'
 python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'LEVIR' --train_ratio 0.2 --model_name 'SemiModel_noema04'
 python train.py --epoch 100 --batchsize 2 --gpu_id '1' --data_name 'LEVIR' --train_ratio 0.3 --model_name 'SemiModel_noema04'
+
+python test.py --gpu_id '1' --data_name 'LEVIR' --model_name 'SemiModel_noema04'
+python test.py --gpu_id '1' --data_name 'LEVIR' --model_name 'SemiModel_noema04'
+python test.py --gpu_id '1' --data_name 'LEVIR' --model_name 'SemiModel_noema04'
+python test.py --gpu_id '1' --data_name 'LEVIR' --model_name 'SemiModel_noema04'
   </pre>
 </div>
 
