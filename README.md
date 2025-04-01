@@ -80,7 +80,7 @@ python test.py --gpu_id '1' --data_name 'LEVIR' --model_name 'SemiModel_noema04'
 </div>
 
 <br><br> 
-
+## Comparison with SOTA Methods
 ![image](https://github.com/user-attachments/assets/220de0aa-dc28-488b-b24f-33156a570b91)
 Table 1. Quantitative Performance Comparison of State-of-the-Art Models at Differ-
 ent Labeled Ratios on WHU-CD Dataset.
