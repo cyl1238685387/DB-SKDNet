@@ -79,8 +79,18 @@ python test.py --gpu_id '1' --data_name 'LEVIR' --model_name 'SemiModel_noema04'
   </pre>
 </div>
 
+<br><br> 
+
+![image](https://github.com/user-attachments/assets/220de0aa-dc28-488b-b24f-33156a570b91)
+Table 1. Quantitative Performance Comparison of State-of-the-Art Models at Differ-
+ent Labeled Ratios on WHU-CD Dataset.
+<br><br> 
 
 
+![image](https://github.com/user-attachments/assets/aafeb1c3-206a-4bf7-9b6e-ac3d9e8435aa)
+Table 2. Quantitative Performance Comparison of State-of-the-Art Models at Differ-
+ent Labeled Ratios on LEVIR-CD Dataset.
+<br><br> 
 
 ![image](https://github.com/user-attachments/assets/f06be317-90dc-426e-8b31-95378a0d97a8)
     Fig. 1. Comparison of different types of SSL methods.(1)Mean teacher (2)FixMatch.
