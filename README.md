@@ -2,7 +2,14 @@
 DB-SKDNet: Efficient Semi-Supervised Change Detection via Dual-Branch Knowledge Alignment
 <!-- PROJECT SHIELDS -->
 
-
+## Requirements
+- Pytorch 1.8.0  
+- torchvision 0.9.0  
+- python 3.8  
+- opencv - python 4.5.3.56  
+- tensorboardx 2.4  
+- Cuda 11.3.1  
+- Cudnn 11.3  
 
 
 ![image](https://github.com/user-attachments/assets/f06be317-90dc-426e-8b31-95378a0d97a8)
