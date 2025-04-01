@@ -37,6 +37,7 @@ python test.py --gpu_id '1' --data_name 'WHU' --model_name 'SemiModel_noema04'
   </pre>
 </div>
 
+
 ## Semi- Training or Test(LEVIR-CD)
 <div style="background-color: #f6f8fa; border-radius: 3px; padding: 10px; margin: 5px 0;">
   <div style="text-align: right; margin-bottom: 5px;">
@@ -54,6 +55,32 @@ python test.py --gpu_id '1' --data_name 'LEVIR' --model_name 'SemiModel_noema04'
 python test.py --gpu_id '1' --data_name 'LEVIR' --model_name 'SemiModel_noema04'
   </pre>
 </div>
+
+
+## Dataset Path Setting
+<div style="background-color: #f6f8fa; border-radius: 3px; padding: 10px; margin: 5px 0;">
+  <div style="text-align: right; margin-bottom: 5px;">
+    <button onclick="copyToClipboard(this)"></button>
+  </div>
+  <pre style="margin: 0;">
+ LEVIR-CD or WHU-CD  or GoogleGZ-CD
+     |—train  
+          |   |—A  
+          |   |—B  
+          |   |—label  
+     |—val  
+          |   |—A  
+          |   |—B  
+          |   |—label  
+     |—test  
+          |   |—A  
+          |   |—B  
+          |   |—label
+  </pre>
+</div>
+
+
+
 
 ![image](https://github.com/user-attachments/assets/f06be317-90dc-426e-8b31-95378a0d97a8)
     Fig. 1. Comparison of different types of SSL methods.(1)Mean teacher (2)FixMatch.
