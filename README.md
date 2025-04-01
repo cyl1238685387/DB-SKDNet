@@ -9,8 +9,35 @@ DB-SKDNet: Efficient Semi-Supervised Change Detection via Dual-Branch Knowledge 
 - opencv - python 4.5.3.56  
 - tensorboardx 2.4  
 - Cuda 11.3.1  
-- Cudnn 11  
+- Cudnn 11.3  
 
+<div style="background-color: #f6f8fa; border-radius: 3px; padding: 10px; margin: 5px 0;">
+  <div style="text-align: right; margin-bottom: 5px;">
+    <button onclick="copyToClipboard(this)">复制</button>
+  </div>
+  <pre style="margin: 0;">
+- Pytorch 1.8.0  
+- torchvision 0.9.0  
+- python 3.8  
+- opencv - python 4.5.3.56  
+- tensorboardx 2.4  
+- Cuda 11.3.1  
+- Cudnn 11.3  
+  </pre>
+</div>
+
+<script>
+function copyToClipboard(button) {
+  var pre = button.parentElement.nextElementSibling;
+  var text = pre.textContent;
+  var textarea = document.createElement('textarea');
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+}
+</script>
 
 ![image](https://github.com/user-attachments/assets/f06be317-90dc-426e-8b31-95378a0d97a8)
 ![image](https://github.com/user-attachments/assets/df6987e5-8f28-4e2a-9367-1a143ed7dba6)
