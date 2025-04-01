@@ -1,7 +1,7 @@
 # DB-SKDNet
 DB-SKDNet: Efficient Semi-Supervised Change Detection via Dual-Branch Knowledge Alignment
 
-
+<br>
 ## Requirements
 <div style="background-color: #f6f8fa; border-radius: 3px; padding: 10px; margin: 5px 0;">
   <div style="text-align: right; margin-bottom: 5px;">
@@ -17,13 +17,13 @@ DB-SKDNet: Efficient Semi-Supervised Change Detection via Dual-Branch Knowledge 
 - Cudnn 11.3  
   </pre>
 </div>
-
+<br>
 ![image](https://github.com/user-attachments/assets/f06be317-90dc-426e-8b31-95378a0d97a8)
   Fig. 1. Comparison of different types of SSL methods.(1)Mean teacher (2)FixMatch.
 
 
 
-  
+ <br> 
 ![image](https://github.com/user-attachments/assets/df6987e5-8f28-4e2a-9367-1a143ed7dba6)
 
 
